@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0;
+}
+#intro h2 {
+    font-size: 2em;
+    }
+
+@media only screen and (min-width: 768px) { 
+#intro h2 {
+    font-size: 3.25em;
+    }
+}
+
+.actions > li:nth-child(1) > input:nth-child(1) {
+    background-color: #dfdfdf;
+}
