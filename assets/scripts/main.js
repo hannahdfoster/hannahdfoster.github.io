@@ -1,4 +1,4 @@
-var folder = "http://hannahdfoster.com/assets/images/";
+var folder = "https://hannahdfoster.com/assets/images/";
 
 let portfolio = window.location.pathname.match(/portfolio/g) ? fnPortfolio() : false;
 
