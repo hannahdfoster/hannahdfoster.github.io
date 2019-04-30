@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant|Nunito+Sans");
+html,
+body {
+  color: #b3b1b2;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h3,
+h4 {
+  font-family: "Cormorant", serif;
+  text-align: center;
+}
+
+p {
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+  text-align: left;
+  font-weight: 300;
+  font-style: normal;
+  overflow: hidden;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+@media all and (min-width: 768px) {
+  html,
+body {
+    color: #b3b1b2;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  h3,
+h4 {
+    font-family: "Cormorant", serif;
+  }
+
+  .container {
+    max-width: 920px;
+    height: 100%;
+    position: relative;
+  }
+
+  p {
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 300;
+    font-style: normal;
+    overflow: hidden;
+  }
+
+  ul,
+ol {
+    padding: 0;
+  }
+}
+#typography {
+  font-family: "Cormorant", serif;
+  text-align: center;
+  margin-top: 3rem;
+  letter-spacing: 0.15em;
+  font-size: 1.5rem;
+}
+
+.menubtn {
+  text-align: center;
+  cursor: pointer;
+}
+.menubtn span {
+  font-size: 0.75rem;
+}
+
+#portfolio h4 {
+  text-align: center;
+}
+
+.container.about {
+  max-width: 945px;
+  background: #f9f7f7;
+}
+
+.container.contact {
+  max-width: 768px;
+}
+
+hr {
+  width: 55%;
+  margin-top: 1rem;
+}
+
+.menu {
+  display: none;
+}
+
+.menu li {
+  display: list-item;
+  list-style: none;
+}
+
+ul {
+  text-align: center;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  color: #b3b1b2;
+  text-transform: uppercase;
+  line-height: 1.8;
+  letter-spacing: 0.2em;
+  font-size: 9px;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #b3b1b2;
+}
+
+img#about {
+  width: 275px;
+  float: initial;
+  margin: 0 auto;
+  display: block;
+}
+
+.footer ul li a {
+  font-size: 1rem;
+}
+
+.footer ul {
+  letter-spacing: 10px;
+}
+
+.footer ul li {
+  margin: 0 auto;
+  letter-spacing: 1rem;
+}
+
+@media all and (min-width: 768px) {
+  #typography {
+    font-size: 2.4rem;
+  }
+
+  .menubtn {
+    display: none;
+  }
+
+  ul.menu, .menu.list {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .menu li {
+    display: inline;
+  }
+
+  #portfolio h4 {
+    text-align: center;
+  }
+
+  .container.about {
+    height: 595px;
+    max-width: 890px;
+    background: #f9f7f7;
+  }
+
+  .container.contact {
+    max-width: 768px;
+  }
+
+  hr {
+    width: 55%;
+    margin-top: 1rem;
+  }
+
+  ul {
+    text-align: center;
+  }
+  ul li {
+    display: inline;
+    margin-right: 2rem;
+  }
+  ul li a {
+    color: #b3b1b2;
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 0.2em;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+  }
+  ul li a:hover {
+    text-decoration: none;
+    color: #b3b1b2;
+  }
+
+  img#about {
+    width: 275px;
+    float: left;
+    margin: 0 3rem 0 0;
+  }
+}
+.navbar {
+  display: block;
+  width: 100%;
+  z-index: 999;
+  background-color: #ffffff;
+}
+
+.footer {
+  margin-top: 4rem;
+}
+
+@media all and (min-width: 768px) {
+  .navbar {
+    display: block;
+    width: 100%;
+    height: 12rem;
+    z-index: 999;
+    background-color: #ffffff;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
