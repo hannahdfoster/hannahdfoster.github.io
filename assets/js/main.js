@@ -36,24 +36,24 @@ $(document).ready(function () {
     }, 250);
 
     //Macy and Mansory Setup
-    var pathName = window.location.pathname;
-    var match = pathName.match(/\d/g);
-    var number = match[0];
-    var folder = `../../../assets/images/gallery${number}/`;  
+    // var pathName = window.location.pathname;
+    // var match = pathName.match(/\d/g);
+    // var number = match[0];
+    // var folder = `../../../assets/images/gallery${number}/`;  
 
-    $.ajax({
-        url: folder,
-        success: function (data) {
-            $(data)
-                .find("a")
-                .attr("href", function (i, val) {
-                    if (val.match(/\.(jpe?g|jpg|png|gif)$/)) {
-                        $(".gallery").append(
-                            "<img src='" + folder + val + "'>"
-                        );
-                    }
-                });
-        }
-    });
+    // $.ajax({
+    //     url: folder,
+    //     success: function (data) {
+    //         $(data)
+    //             .find("a")
+    //             .attr("href", function (i, val) {
+    //                 if (val.match(/\.(jpe?g|jpg|png|gif)$/)) {
+    //                     $(".gallery").append(
+    //                         "<img src='" + folder + val + "'>"
+    //                     );
+    //                 }
+    //             });
+    //     }
+    // });
 
 });
