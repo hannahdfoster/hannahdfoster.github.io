@@ -1,232 +1,150 @@
+/* @import url('https://fonts.googleapis.com/css?family=Assistant'); */
 @import url("https://fonts.googleapis.com/css?family=Cormorant|Nunito+Sans");
+@import url('https://fonts.googleapis.com/css?family=Rosarivo&display=swap');
 html,
 body {
-  color: #b3b1b2;
-  font-family: "Nunito Sans", sans-serif;
-}
-
-h3,
-h4 {
-  font-family: "Cormorant", serif;
-  text-align: center;
-}
-
-p {
-  line-height: 1.8;
-  letter-spacing: 0.05em;
-  font-size: 13px;
-  text-align: left;
-  font-weight: 300;
-  font-style: normal;
-  overflow: hidden;
-}
-
-ul,
-ol {
-  padding: 0;
-}
-
-@media all and (min-width: 768px) {
-  html,
-body {
-    color: #b3b1b2;
-    font-family: "Nunito Sans", sans-serif;
-  }
-
-  h3,
-h4 {
-    font-family: "Cormorant", serif;
-  }
-
-  .container {
-    max-width: 920px;
-    height: 100%;
-    position: relative;
-  }
-
-  p {
-    line-height: 1.8;
-    letter-spacing: 0.05em;
-    font-size: 13px;
-    text-align: left;
-    font-weight: 300;
-    font-style: normal;
-    overflow: hidden;
-  }
-
-  ul,
-ol {
-    padding: 0;
-  }
-}
-#typography {
-  font-family: "Cormorant", serif;
-  text-align: center;
-  margin-top: 3rem;
-  letter-spacing: 0.15em;
-  font-size: 1.5rem;
-}
-
-.menubtn {
-  text-align: center;
-  cursor: pointer;
-}
-.menubtn span {
-  font-size: 0.75rem;
-}
-
-#portfolio h4 {
-  text-align: center;
-}
-
-.container.about {
-  max-width: 945px;
-  background: #f9f7f7;
-}
-
-.container.contact {
-  max-width: 768px;
-}
-
-hr {
-  width: 55%;
-  margin-top: 1rem;
-}
-
-.menu {
-  display: none;
-}
-
-.menu li {
-  display: list-item;
-  list-style: none;
-}
-
-ul {
-  text-align: center;
-}
-ul li {
-  display: inline;
-}
-ul li a {
-  color: #b3b1b2;
-  text-transform: uppercase;
-  line-height: 1.8;
-  letter-spacing: 0.2em;
-  font-size: 9px;
-  text-align: center;
-  font-weight: 400;
-  font-style: normal;
-}
-ul li a:hover {
-  text-decoration: none;
-  color: #b3b1b2;
-}
-
-img#about {
-  width: 275px;
-  float: initial;
-  margin: 0 auto;
-  display: block;
-}
-
-.footer ul li a {
-  font-size: 1rem;
-}
-
-.footer ul {
-  letter-spacing: 10px;
-}
-
-.footer ul li {
-  margin: 0 auto;
-  letter-spacing: 1rem;
-}
-
-@media all and (min-width: 768px) {
-  #typography {
-    font-size: 2.4rem;
-  }
-
-  .menubtn {
-    display: none;
-  }
-
-  ul.menu, .menu.list {
-    margin: 0 auto;
-    display: block;
-  }
-
-  .menu li {
-    display: inline;
-  }
-
-  #portfolio h4 {
-    text-align: center;
-  }
-
-  .container.about {
-    height: 595px;
-    max-width: 890px;
-    background: #f9f7f7;
-  }
-
-  .container.contact {
-    max-width: 768px;
-  }
-
-  hr {
-    width: 55%;
-    margin-top: 1rem;
-  }
-
-  ul {
-    text-align: center;
-  }
-  ul li {
-    display: inline;
-    margin-right: 2rem;
-  }
-  ul li a {
-    color: #b3b1b2;
-    text-transform: uppercase;
-    line-height: 1.8;
-    letter-spacing: 0.2em;
-    font-size: 9px;
-    text-align: center;
+    /* font-family: 'Assistant', sans-serif; */
+    /* font-family: "Nunito", serif; */
+    font-family: Rosarivo,Arial,Helvetica,sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  ul li a:hover {
-    text-decoration: none;
-    color: #b3b1b2;
-  }
-
-  img#about {
-    width: 275px;
-    float: left;
-    margin: 0 3rem 0 0;
-  }
+    color: #858585;
+    scroll-behavior: smooth;
 }
-.navbar {
-  display: block;
-  width: 100%;
-  z-index: 999;
-  background-color: #ffffff;
+#nav {
+    padding: 1rem;
 }
-
-.footer {
-  margin-top: 4rem;
+#nav h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Cormorant", serif;
+    font-size: 2.25rem;
 }
-
 @media all and (min-width: 768px) {
-  .navbar {
+    #nav h1 {
+        font-size: 3rem;
+        letter-spacing: 0.5px;
+    }
+}
+hr {
+    width: 50%;
+    margin: 0 auto;
+}
+.nav-link {
+    padding: .5rem 0.85rem;
+}
+@media all and (min-width: 768px) {
+    .nav-link {
+        padding: .5rem 1.5rem;
+    }
+}
+#nav ul li a {
+    font-size: 10px;
+    color: rgba(195,195,195,1);
+    font-weight: normal;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: 0.25em;
+    word-spacing: 0.00em;
+    text-transform: uppercase;
+    font-variant: normal;
+    line-height: 120%;
+}
+#nav ul li a:hover {
+    color: rgb(158, 157, 157);
+}
+#about, #gallery, #contact {
+    padding: 2rem;
+}
+@media all and (min-width: 768px) {
+    #about {
+        margin-bottom: 7rem !important;
+        margin-top: 5rem !important;
+    }
+}
+#about-pic {
+    width: 125px;
+    margin: 0 auto;
     display: block;
-    width: 100%;
-    height: 12rem;
-    z-index: 999;
-    background-color: #ffffff;
-  }
+    margin-bottom: 1rem;
+}
+#about p {
+    color: #a0a0a0;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+@media all and (min-width: 480px) {
+    #about-pic {
+        float: left;
+        width: 180px;
+        margin: 0.5rem 1.75rem 0 0;
+    }
+}
+#about > div:nth-child(2) {
+    max-width: 768px;
+}
+.container h4 {
+    text-align: center;
+    font-family: Rosarivo,Arial,Helvetica,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    letter-spacing: 0.09em;
+    word-spacing: 0.00em;
+    text-transform: uppercase;
+    font-variant: normal;
+    line-height: 120%;
+}
+.img-thumbnail {
+    cursor: pointer;
+    border-radius: 0;
+}
+#contact > div:nth-child(2) > div > div:nth-child(1) > div > p:nth-child(2) {
+    text-align: center;
+}
+/* #contact p.text-center, #contact div.col-md-6:nth-child(1) > div:nth-child(1) > p:nth-child(2), #social {
+    max-width: 480px;
+} */
+#gallery h6 {
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgba(195,195,195,1);
+    font-size: 0.97rem;
+}
+#contact i {
+    font-size: 1.5rem;
+    color: #858585;
+}
+#contact form input, #contact form textarea  {
+    font-size: 0.8rem;
+} 
+#contact form .btn {
+    margin: 0 auto;
+    display: block;
+    color: #495057;
+    width: 100px;
+    font-size: 0.8rem;
+}
+#social {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+#social li {
+    display: inline;
+    margin: 0.5rem;
+}
+footer {
+    background-color: #f3f3f3;
+    text-align: center;
 }
 
-/*# sourceMappingURL=main.css.map */
+/* Form Inputs Padding Reset */
+div.mb-2:nth-child(1) > div:nth-child(1) {
+    padding-right: 5px;
+}
+div.col:nth-child(2) {
+    padding-left: 5px;
+}
