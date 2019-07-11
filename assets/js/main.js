@@ -1,18 +1,18 @@
 $(document).ready(function () {
 
     //Mail Function
-    $("form").on("submit", function (e) {
-        e.preventDefault();
-        $.ajax({
-            type: "POST",
-            url: "https://formcarry.com/s/qAW5BP7TRqb",
-            dataType: "text",
-            data: $('form').serialize(),
-            success: function () {
-                $('#confirmEmail').modal('show')
-            }
-        });
-    });
+//     $("form").on("submit", function (e) {
+//         e.preventDefault();
+//         $.ajax({
+//             type: "POST",
+//             url: "https://formcarry.com/s/qAW5BP7TRqb",
+//             dataType: "text",
+//             data: $('form').serialize(),
+//             success: function () {
+//                 $('#confirmEmail').modal('show')
+//             }
+//         });
+//     });
 
     //Footer Year display
     let d = new Date();
